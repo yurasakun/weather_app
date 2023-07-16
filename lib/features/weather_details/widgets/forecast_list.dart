@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:weather_app/app/theme/color.dart';
 import 'package:weather_app/app/utils/format_value.dart';
 import 'package:weather_app/entities/weather/weather.dart';
