@@ -1,0 +1,12 @@
+{
+  "@@locale": "en_US",
+  "temperature": "{formattedNumber}˚C",
+  "sixteenForecast": "8-days forecast",
+  "tomorrow" : "Tomorrow",
+  "today" : "Today",
+  "sunny" : "Sunny",
+  "temperatureDelimiter" : "/",
+  "searchHint" : "Search by city",
+  "error_try_search" : "Please try to search new query",
+  "error_other_type" : "Oops... Occurred error"
+}
