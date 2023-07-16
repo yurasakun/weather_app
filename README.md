@@ -4,13 +4,14 @@ Test Weather App.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The project uses [OpenWeather](https://openweathermap.org/) API, you will need to get your own key and store it inside `lib/app/const.dart`. Here's an example of what the file should look like:
 
-A few resources to get you started if this is your first Flutter project:
+```
+static const String weatherApiKey = "YOUR_WEATHER_API_KEY";
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+If you need to change entities don't forget to run the command in terminal:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub run build_runner build --delete-conflicting-outputs
+```
