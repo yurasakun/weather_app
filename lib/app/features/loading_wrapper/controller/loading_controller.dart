@@ -21,6 +21,9 @@ abstract class _LoadingController with Store {
   }
 
   void _show(){
+    if(loadings < 0){
+      loadings = 0;
+    }
     loadings+=1;
   }
 
